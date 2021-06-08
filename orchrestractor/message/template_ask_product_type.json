@@ -1,0 +1,361 @@
+{
+  "to": "<:user_id>",
+  "messages": [{
+    "type": "flex",
+    "altText": "กรุณาเลือกประเภทสินค้าที่ต้องการค้นหา",
+    "contents": {
+      "type": "carousel",
+      "contents": [
+        {
+          "type": "bubble",
+          "header": {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "ค้นหาร้าน 7-eleven ตามสินค้าที่คุณชอบ",
+                "weight": "bold",
+                "size": "sm",
+                "color": "#AAAAAA",
+                "contents": []
+              }
+            ]
+          },
+          "hero": {
+            "type": "image",
+            "url": "https://storage.googleapis.com/seven-bot/sticker1.jpg",
+            "size": "5xl",
+            "aspectRatio": "20:13",
+            "aspectMode": "fit"
+          },
+          "body": {
+            "type": "box",
+            "layout": "horizontal",
+            "spacing": "md",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "flex": 1,
+                "contents": [
+                  {
+                    "type": "image",
+                    "url": "https://storage.googleapis.com/seven-bot/badge/VF.png",
+                    "gravity": "bottom",
+                    "size": "sm",
+                    "aspectRatio": "4:3",
+                    "aspectMode": "fit"
+                  },
+                  {
+                    "type": "image",
+                    "url": "https://storage.googleapis.com/seven-bot/badge/AC.png",
+                    "margin": "md",
+                    "size": "sm",
+                    "aspectRatio": "4:3",
+                    "aspectMode": "fit"
+                  },
+                  {
+                    "type": "separator",
+                    "margin": "md",
+                    "color": "#FFFFFFFF"
+                  },
+                  {
+                    "type": "image",
+                    "url": "https://storage.googleapis.com/seven-bot/badge/GP.png",
+                    "gravity": "bottom",
+                    "size": "sm",
+                    "aspectRatio": "4:3",
+                    "aspectMode": "fit"
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "flex": 2,
+                "contents": [
+                  {
+                    "type": "separator",
+                    "margin": "sm",
+                    "color": "#FFFFFFFF"
+                  },
+                  {
+                    "type": "button",
+                    "action": {
+                      "type": "postback",
+                      "label": "ผักและผลไม้สด",
+                      "data": "ProductType=VF&latitude=<:latitude>&longitude=<:longitude>"
+                    },
+                    "color": "#45A014FF",
+                    "style": "primary"
+                  },
+                  {
+                    "type": "separator",
+                    "margin": "xl",
+                    "color": "#FFFFFFFF"
+                  },
+                  {
+                    "type": "button",
+                    "action": {
+                      "type": "postback",
+                      "label": "ออลล์คาเฟ่",
+                      "data": "ProductType=AC&latitude=<:latitude>&longitude=<:longitude>"
+                    },
+                    "color": "#45A014FF",
+                    "style": "primary"
+                  },
+                  {
+                    "type": "separator",
+                    "margin": "xl",
+                    "color": "#FFFFFFFF"
+                  },
+                  {
+                    "type": "button",
+                    "action": {
+                      "type": "postback",
+                      "label": "กัฟ",
+                      "data": "ProductType=GP&latitude=<:latitude>&longitude=<:longitude>"
+                    },
+                    "color": "#45A014FF",
+                    "style": "primary"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "bubble",
+          "header": {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "ค้นหาร้าน 7-eleven ตามสินค้าที่คุณชอบ",
+                "weight": "bold",
+                "size": "sm",
+                "color": "#AAAAAA",
+                "contents": []
+              }
+            ]
+          },
+          "hero": {
+            "type": "image",
+            "url": "https://storage.googleapis.com/seven-bot/sticker2.png",
+            "size": "5xl",
+            "aspectRatio": "20:13",
+            "aspectMode": "fit"
+          },
+          "body": {
+            "type": "box",
+            "layout": "horizontal",
+            "spacing": "md",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "flex": 1,
+                "contents": [
+                  {
+                    "type": "image",
+                    "url": "https://storage.googleapis.com/seven-bot/badge/FM.png",
+                    "gravity": "bottom",
+                    "size": "sm",
+                    "aspectRatio": "4:3",
+                    "aspectMode": "fit"
+                  },
+                  {
+                    "type": "image",
+                    "url": "https://storage.googleapis.com/seven-bot/badge/SP.png",
+                    "margin": "md",
+                    "size": "sm",
+                    "aspectRatio": "4:3",
+                    "aspectMode": "fit"
+                  },
+                  {
+                    "type": "separator",
+                    "margin": "md",
+                    "color": "#FFFFFFFF"
+                  },
+                  {
+                    "type": "image",
+                    "url": "https://storage.googleapis.com/seven-bot/badge/KS.png",
+                    "gravity": "bottom",
+                    "size": "sm",
+                    "aspectRatio": "4:3",
+                    "aspectMode": "fit"
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "flex": 2,
+                "contents": [
+                  {
+                    "type": "separator",
+                    "margin": "sm",
+                    "color": "#FFFFFFFF"
+                  },
+                  {
+                    "type": "button",
+                    "action": {
+                      "type": "postback",
+                      "label": "เนื้อสัตว์แช่แข็ง",
+                      "data": "ProductType=FM&latitude=<:latitude>&longitude=<:longitude>"
+                    },
+                    "color": "#45A014FF",
+                    "style": "primary"
+                  },
+                  {
+                    "type": "separator",
+                    "margin": "xl",
+                    "color": "#FFFFFFFF"
+                  },
+                  {
+                    "type": "button",
+                    "action": {
+                      "type": "postback",
+                      "label": "สเลอปี้",
+                      "data": "ProductType=SP&latitude=<:latitude>&longitude=<:longitude>"
+                    },
+                    "color": "#45A014FF",
+                    "style": "primary"
+                  },
+                  {
+                    "type": "separator",
+                    "margin": "xl",
+                    "color": "#FFFFFFFF"
+                  },
+                  {
+                    "type": "button",
+                    "action": {
+                      "type": "postback",
+                      "label": "คัดสรร",
+                      "data": "ProductType=KS&latitude=<:latitude>&longitude=<:longitude>"
+                    },
+                    "color": "#45A014FF",
+                    "style": "primary"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "bubble",
+          "header": {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "ค้นหาร้าน 7-eleven ตามสินค้าที่คุณชอบ",
+                "weight": "bold",
+                "size": "sm",
+                "color": "#AAAAAA",
+                "contents": []
+              }
+            ]
+          },
+          "hero": {
+            "type": "image",
+            "url": "https://storage.googleapis.com/seven-bot/sticker4.png",
+            "size": "5xl",
+            "aspectRatio": "20:13",
+            "aspectMode": "fit"
+          },
+          "body": {
+            "type": "box",
+            "layout": "horizontal",
+            "spacing": "md",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "flex": 1,
+                "contents": [
+                  {
+                    "type": "image",
+                    "url": "https://storage.googleapis.com/seven-bot/badge/XT.png",
+                    "margin": "md",
+                    "size": "sm",
+                    "aspectRatio": "4:3",
+                    "aspectMode": "fit"
+                  },
+                  {
+                    "type": "image",
+                    "url": "https://storage.googleapis.com/seven-bot/badge/FP.png",
+                    "margin": "md",
+                    "size": "sm",
+                    "aspectRatio": "4:3",
+                    "aspectMode": "fit"
+                  },
+                  {
+                    "type": "image",
+                    "url": "https://storage.googleapis.com/seven-bot/8f947d625495d01559e8e3cc385635db.jpeg",
+                    "margin": "md",
+                    "size": "sm",
+                    "aspectRatio": "4:3",
+                    "aspectMode": "cover"
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "flex": 2,
+                "contents": [
+                  {
+                    "type": "separator",
+                    "margin": "xl"
+                  },
+                  {
+                    "type": "button",
+                    "action": {
+                      "type": "postback",
+                      "label": "เอ็กซ์ต้า พลัส",
+                      "data": "ProductType=XT&latitude=<:latitude>&longitude=<:longitude>"
+                    },
+                    "color": "#45A014FF",
+                    "style": "primary"
+                  },
+                  {
+                    "type": "separator",
+                    "margin": "xl"
+                  },
+                  {
+                    "type": "button",
+                    "action": {
+                      "type": "postback",
+                      "label": "ฟู้ดเพลส",
+                      "data": "ProductType=FP&latitude=<:latitude>&longitude=<:longitude>"
+                    },
+                    "color": "#45A014FF",
+                    "style": "primary"
+                  },
+                  {
+                    "type": "separator",
+                    "margin": "xl"
+                  },
+                  {
+                    "type": "button",
+                    "action": {
+                      "type": "postback",
+                      "label": "ทั้งหมด",
+                      "data": "ProductType=ALL&latitude=<:latitude>&longitude=<:longitude>"
+                    },
+                    "color": "#45A014FF",
+                    "style": "primary"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }]
+}

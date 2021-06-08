@@ -1,0 +1,20 @@
+{
+    "to": "<:user_id>",
+    "messages": [
+        {
+            "type": "text",
+            "text": "ไม่เซเว่น ในรัศมี 5 กม. จากตำแหน่งของคุณ ลองเลือกใหม่นะครับ",
+            "quickReply": {
+                "items": [
+                    {
+                        "type": "action",
+                        "action": {
+                            "type": "location",
+                            "label": "ขยับตำแหน่งบนแผนที่"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

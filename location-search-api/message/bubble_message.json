@@ -1,0 +1,89 @@
+{
+    "type": "bubble",
+    "hero": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/seven-bot/s1.jpeg",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover"
+    },
+    "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "md",
+        "contents": [{
+                "type": "text",
+                "text": "<:name>",
+                "weight": "bold",
+                "size": "xl",
+                "contents": []
+            },
+            {
+                "type": "box",
+                "layout": "vertical",
+                "spacing": "sm",
+                "contents": [{
+                        "type": "box",
+                        "layout": "baseline",
+                        "spacing": "md",
+                        "contents": []
+                    },
+                    {
+                        "type": "box",
+                        "layout": "baseline",
+                        "contents": [{
+                                "type": "text",
+                                "text": "โทร",
+                                "weight": "bold",
+                                "contents": []
+                            },
+                            {
+                                "type": "text",
+                                "text": "<:tel>",
+                                "align": "end",
+                                "wrap": true,
+                                "contents": []
+                            }
+                        ]
+                    },
+                    {
+                        "type": "box",
+                        "layout": "baseline",
+                        "contents": [{
+                                "type": "text",
+                                "text": "ที่อยู่",
+                                "weight": "bold",
+                                "contents": []
+                            },
+                            {
+                                "type": "text",
+                                "text": "<:address>",
+                                "align": "end",
+                                "wrap": true,
+                                "contents": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "md",
+        "contents": [
+            {
+                "type": "button",
+                "action": {
+                    "type": "uri",
+                    "label": "Google Map",
+                    "uri": "https://www.google.co.th/maps/dir/<:origin_lat>,<:origin_lng>/<:store_lat>,<:store_lng>/"
+                },
+                "color": "#1B8C10FF",
+                "height": "md",
+                "style": "primary"
+            }
+        ]
+    }
+}

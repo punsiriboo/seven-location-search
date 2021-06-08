@@ -1,0 +1,14 @@
+# PyCharm
+.idea/**
+venv/**
+
+# App
+*.zip
+__pycache__/
+*/__pycache__/
+.DS_Store
+.ipynb_checkpoints/
+test/
+test_combined_pdf/
+test_split_by_doctype/
+push.py

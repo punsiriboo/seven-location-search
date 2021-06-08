@@ -1,0 +1,1 @@
+functions-framework --target=find_seven_store --port=8085

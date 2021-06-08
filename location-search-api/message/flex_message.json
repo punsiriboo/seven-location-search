@@ -1,0 +1,13 @@
+{
+    "to": "<:user_id>",
+    "messages": [
+        {
+            "type": "flex",
+            "altText": "ค้นหาร้านเซเว่น",
+            "contents": {
+                "type": "carousel",
+                "contents":[]
+            }
+        }
+    ]
+}

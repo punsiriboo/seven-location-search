@@ -1,0 +1,15 @@
+{
+    "line": {
+        "channel_secret": "xx",
+        "access_token": "xx"
+    },
+    "dialogflow": {
+        "host": "bots.dialogflow.com",
+        "webhook": "https://bots.dialogflow.com/line/xxx/webhook"
+    },
+    "api": {
+        "location": {
+            "store": "https://xxxxx.cloudfunctions.net/store-location"
+        }
+    }
+}

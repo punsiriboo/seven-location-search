@@ -1,0 +1,3 @@
+*.json
+!*.sample.json
+!default-config.json

@@ -1,0 +1,10 @@
+{
+    "cloud_sql": {
+        "instance_connection_name": "",
+        "host": "",
+        "username": "",
+        "password": "",
+        "database": "",
+        "table": ""
+    }
+}

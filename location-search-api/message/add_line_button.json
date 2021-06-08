@@ -1,0 +1,10 @@
+{
+    "type": "button",
+    "action": {
+        "type": "uri",
+        "label": "Add Line",
+        "uri": "https://line.me/R/ti/p/<:lineOA>"
+    },
+    "color": "#1B8C10FF",
+    "style": "primary"
+}
